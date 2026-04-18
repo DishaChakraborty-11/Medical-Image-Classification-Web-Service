@@ -1,4 +1,4 @@
-# 🧠 Brain Tumor Detection using Convolutional Neural Networks
+# Medical-Image-Classification-Web-Service
 
 > A deep learning project that detects and classifies brain tumors from MRI images using a Convolutional Neural Network (CNN).  
 > The model achieves high accuracy and helps in early diagnosis through automated image classification.
