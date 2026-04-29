@@ -31,7 +31,6 @@ Drag MRI image
 ---
 ## 🚀 Local Setup
 
-```bash
 git clone https://github.com/DishaChakraborty-11/Brain-tumor-classification
 cd Brain-tumor-classification
 pip install -r requirements.txt
@@ -48,16 +47,19 @@ streamlit run app.py
 | Model             | EfficientNetB0 |
 
 
-Tech Stack
-
+🛠️ Tech Stack
 Copy code
 🤖 AI: TensorFlow 2.13 | Keras | EfficientNetB0
 🌐 Web: Streamlit | Plotly
 📊 Data: OpenCV | NumPy | Scikit-learn
 🐳 Deploy: Streamlit Cloud | Docker-ready
-🚀 Quick Start
 
-**Live Demo:** [![Streamlit](https://img.shields.io/badge/Live_Demo-Streamlit-ff4b4b?style=for-the-badge&logo=streamlit&logoColor=white)](https://brain-tumor-classification-tewoyhxwcvzlnuw4zmezdx.streamlit.app/)
+---
+
+🚀 Quick Start
+Live Demo (No Setup)
+[Use instantly →](https://brain-tumor-classification-tewoyhxwcvzlnuw4zmezdx.streamlit.app/)
+---
 
 Local Setup
 bash
@@ -68,7 +70,9 @@ cd Brain-tumor-classification
 pip install -r requirements.txt
 streamlit run app.py
 
-Dataset
+---
+
+🧬 Dataset
 Source: Kaggle Brain Tumor MRI
 Classes: Glioma (1,426) | Meningioma (1,330) | Pituitary (1,311) | No Tumor (1,956)
 📁 data/
@@ -77,7 +81,9 @@ Classes: Glioma (1,426) | Meningioma (1,330) | Pituitary (1,311) | No Tumor (1,9
 ├── pituitary/  (sellar mass)
 └── notumor/    (normal)
 
-Clinical Features
+---
+
+🔬 Clinical Features
 ✅ Instant 4-class tumor classification
 ✅ Confidence scores (0-100%)
 ✅ Probability visualization
@@ -86,19 +92,25 @@ Clinical Features
 ✅ Mobile-friendly interface
 ✅ Professional medical UI
 
-Model Architecture
+---
+
+📈 Model Architecture
 EfficientNetB0 (pretrained ImageNet)
 ├── GlobalAvgPooling2D
 ├── Dense(256, ReLU)
 ├── Dropout(0.5)
 └── Softmax(4 classes)
 
- For Medical Professionals
- ⚠️ AI Decision Support Tool Only
+---
+
+ 👨‍⚕️ For Medical Professionals
+       ⚠️ AI Decision Support Tool Only
 ✅ Correlate with clinical findings
 ✅ Not FDA-approved
 ✅ Consult radiologist/neurologist
 ✅ Early detection aid
+
+---
 
 Example Output:
 🎯 Meningioma (96.8%)
@@ -107,7 +119,9 @@ Example Output:
 🔬 MRI: Dural tail sign
 💊 Prognosis: 90% surgical cure
 
- File Structure
+---
+
+🏗️File Structure
  📁 Brain-tumor-classification/
 ├── app.py              # Live web app ⭐
 ├── requirements.txt    # Dependencies
@@ -119,8 +133,10 @@ Example Output:
 ├── models/             # Saved models
 └── README.md           # You're reading it!
 
- Development Roadmap
- ✅ Live Streamlit deployment
+----
+
+🔧 Development Roadmap
+✅ Live Streamlit deployment
 ✅ 94% accuracy model
 ✅ Clinical symptom database
 ✅ Mobile-responsive UI
@@ -133,14 +149,24 @@ Example Output:
 - [ ] License verification
 - [ ] HIPAA compliance
 
- Screenshots
+---
+
+ 📱 Screenshots
  <img width="1435" height="415" alt="Screenshot (50)" src="https://github.com/user-attachments/assets/f2db97c2-9aff-4716-9a0f-3860f6e5b860" />
  <img width="1454" height="841" alt="Screenshot (48)" src="https://github.com/user-attachments/assets/6c60f406-8bb3-4b6e-a927-c54a7d7111d3" />
  <img width="1449" height="729" alt="Screenshot (49)" src="https://github.com/user-attachments/assets/a084d1a5-c39c-44ea-938a-bc1e129e9076" />
 
- Contributing
+ ---
+
+🤝Contributing
 1. Fork repo
 2. Create feature branch
 3. Add improvements
 4. Submit PR
 
+---
+
+👩‍💻 Author
+Disha Chakraborty
+B.Tech CSE (AI & ML) | Medical AI Developer
+LinkedIn | Portfolio
