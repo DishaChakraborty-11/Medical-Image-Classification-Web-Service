@@ -34,31 +34,17 @@ Drag MRI image
 ---
 
 ## 📊 **Performance**
+## 📊 Performance
 
-<div align="center">
-Metric
+| Metric            | Value        |
+|-------------------|--------------|
+| Validation Acc.   | **94.2%** 🎯 |
+| Training Acc.     | **97.8%** 📈 |
+| Dataset           | 7,023 MRIs   |
+| Model             | EfficientNetB0 |
 
-Value
 
-Validation Acc.
-
-94.2%** 🎯
-
-Training Acc.
-
-97.8%** 📈
-
-Dataset
-
-7,023 MRIs
-
-Model
-
-EfficientNetB0
-
-</div> ```
-
- Tech Stack
+Tech Stack
 
 Copy code
 🤖 AI: TensorFlow 2.13 | Keras | EfficientNetB0
