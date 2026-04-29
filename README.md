@@ -28,10 +28,14 @@ Drag MRI image
 ⚡ Instant AI diagnosis
 📊 Results + symptoms
 
-
-[![Demo GIF](https://via.placeholder.com/800x400/1f77b4/ffffff?text=Drag+MRI+%E2%86%92+Instant+Diagnosis)](https://brain-tumor-classification-tewoyhxwcvzlnuw4zmezdx.streamlit.app/)
-
 ---
+## 🚀 Local Setup
+
+```bash
+git clone https://github.com/DishaChakraborty-11/Brain-tumor-classification
+cd Brain-tumor-classification
+pip install -r requirements.txt
+streamlit run app.py
 
 ## 📊 **Performance**
 ## 📊 Performance
