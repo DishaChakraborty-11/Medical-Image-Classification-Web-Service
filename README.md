@@ -5,16 +5,21 @@
 [![License](https://img.shields.io/github/license/DishaChakraborty-11/Brain-tumor-classification)](LICENSE)
 
 **AI-powered brain tumor detection from MRI scans**  
+
 **Live Demo:** [Try it now →](https://brain-tumor-classification-tewoyhxwcvzlnuw4zmezdx.streamlit.app/)  
 **Accuracy: 94%+** | **Dataset: 7,023 MRIs** | **4 Classes**
 
 ---
 
 ## 🎯 **What it does**
+
 Upload **any MRI brain scan** → **Instant diagnosis** in 4 classes:
-- 🦠 **Glioma** 
+- 🦠 **Glioma**
+  
 - 🎯 **Meningioma**
+  
 - 🧪 **Pituitary Tumor**
+  
 - ✅ **No Tumor**
 
 **Clinical insights** + **confidence scores** + **probability charts**
@@ -24,20 +29,26 @@ Upload **any MRI brain scan** → **Instant diagnosis** in 4 classes:
 ## 🩺 **Live Demo**
 
 Visit: https://brain-tumor-classification-tewoyhxwcvzlnuw4zmezdx.streamlit.app/
+
 Drag MRI image
+
 ⚡ Instant AI diagnosis
+
 📊 Results + symptoms
 
 ---
 ## 🚀 Local Setup
 
 git clone https://github.com/DishaChakraborty-11/Brain-tumor-classification
+
 cd Brain-tumor-classification
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 ## 📊 **Performance**
-## 📊 Performance
+
 
 | Metric            | Value        |
 |-------------------|--------------|
@@ -48,15 +59,21 @@ streamlit run app.py
 
 
 🛠️ Tech Stack
+
 Copy code
+
 🤖 AI: TensorFlow 2.13 | Keras | EfficientNetB0
+
 🌐 Web: Streamlit | Plotly
+
 📊 Data: OpenCV | NumPy | Scikit-learn
+
 🐳 Deploy: Streamlit Cloud | Docker-ready
 
 ---
 
 🚀 Quick Start
+
 Live Demo (No Setup)
 [Use instantly →](https://brain-tumor-classification-tewoyhxwcvzlnuw4zmezdx.streamlit.app/)
 ---
