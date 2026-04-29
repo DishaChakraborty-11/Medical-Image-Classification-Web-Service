@@ -82,88 +82,142 @@ Local Setup
 bash
 
 Copy code
+
 git clone https://github.com/DishaChakraborty-11/Brain-tumor-classification
+
 cd Brain-tumor-classification
+
 pip install -r requirements.txt
+
 streamlit run app.py
 
 ---
 
 🧬 Dataset
+
 Source: Kaggle Brain Tumor MRI
+
 Classes: Glioma (1,426) | Meningioma (1,330) | Pituitary (1,311) | No Tumor (1,956)
+
 📁 data/
+
 ├── glioma/     (infiltrative)
+
 ├── meningioma/ (dural-based)  
+
 ├── pituitary/  (sellar mass)
+
 └── notumor/    (normal)
+
 
 ---
 
 🔬 Clinical Features
+
 ✅ Instant 4-class tumor classification
+
 ✅ Confidence scores (0-100%)
+
 ✅ Probability visualization
+
 ✅ Early symptoms list
+
 ✅ Diagnosis recommendations
+
 ✅ Mobile-friendly interface
+
 ✅ Professional medical UI
 
 ---
 
 📈 Model Architecture
+
 EfficientNetB0 (pretrained ImageNet)
+
 ├── GlobalAvgPooling2D
+
 ├── Dense(256, ReLU)
+
 ├── Dropout(0.5)
+
 └── Softmax(4 classes)
 
 ---
 
  👨‍⚕️ For Medical Professionals
+ 
        ⚠️ AI Decision Support Tool Only
+       
 ✅ Correlate with clinical findings
+
 ✅ Not FDA-approved
+
 ✅ Consult radiologist/neurologist
+
 ✅ Early detection aid
 
 ---
 
 Example Output:
+
 🎯 Meningioma (96.8%)
+
 📊 Confidence: 96.8%
+
 📋 Symptoms: Headaches, seizures
+
 🔬 MRI: Dural tail sign
+
 💊 Prognosis: 90% surgical cure
 
 ---
 
 🏗️File Structure
+
  📁 Brain-tumor-classification/
+ 
 ├── app.py              # Live web app ⭐
+
 ├── requirements.txt    # Dependencies
+
 ├── src/
+
 │   ├── train.py        # Model training
+
 │   ├── predict.py      # CLI prediction
+
 │   └── model.py        # EfficientNetB0
+
 ├── data/               # 7K MRI dataset
+
 ├── models/             # Saved models
+
 └── README.md           # You're reading it!
 
 ----
 
 🔧 Development Roadmap
+
 ✅ Live Streamlit deployment
+
 ✅ 94% accuracy model
+
 ✅ Clinical symptom database
+
 ✅ Mobile-responsive UI
+
 ✅ Probability visualizations
+
 
 ⏳ Next:
 - [ ] Real-time model (model.h5)
+    
 - [ ] Grad-CAM heatmaps
+      
 - [ ] DICOM support
+      
 - [ ] License verification
+      
 - [ ] HIPAA compliance
 
 ---
@@ -176,9 +230,13 @@ Example Output:
  ---
 
 🤝Contributing
+
 1. Fork repo
+
 2. Create feature branch
+ 
 3. Add improvements
+
 4. Submit PR
 
 ---
