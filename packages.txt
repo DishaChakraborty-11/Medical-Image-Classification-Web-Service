@@ -1,6 +1,0 @@
-# packages.txt - System packages for Streamlit Cloud
-python3-pip
-python3-venv
-python3-dev
-libgl1-mesa-glx
-libglib2.0-0
